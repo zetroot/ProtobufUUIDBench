@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "ProtobufUUIDBench";
+
+message UUIDstring {
+	string StrValue = 1;	
+}
+
+message UUIDbin {
+	bytes BinValue = 1;	
+}
